@@ -1,1 +1,2 @@
-*.idea
+.idea
+.jekyll-metadata
