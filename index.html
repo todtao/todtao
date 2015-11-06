@@ -44,9 +44,9 @@ styles: [article-list.css]
                       {% if page == paginator.page %}
                         <li class="active"><span>{{ page }}</span></li>
                       {% elsif page == 1 %}
-                        <li><a href="{{ '/' | prepend: site.baseurl | prepend: site.url  }}">{{ page }}</a></li>
+                        <li><a href="{{ '' | prepend: site.baseurl | prepend: site.url  }}">{{ page }}</a></li>
                       {% else %}
-                        <li><a href="{{ page |  prepend: '/page' | prepend: site.baseurl | prepend: site.url }}">{{ page }}</a></li>
+                        <li><a href="{{ page |  prepend: 'page' | prepend: site.baseurl | prepend: site.url }}">{{ page }}</a></li>
                       {% endif %}
                   {% endfor %}
                   {% if !paginator.next_page %}
