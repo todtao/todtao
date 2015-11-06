@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Link
-permalink: /link/
+permalink: link/
 icon: octicon-link-external
 ---
 
