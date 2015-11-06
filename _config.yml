@@ -1,2 +1,43 @@
-encoding: utf-8
-site.baseurl:  todtao
+permalink: /:year-:month-:day/:title/
+gems: [jekyll-paginate]
+highlighter: rouge
+markdown: redcarpet
+redcarpet:
+  extensions: [
+   "no_intra_emphasis"
+   ,"fenced_code_blocks"
+   ,"autolink"
+   ,"tables"
+   ,"strikethrough"
+   ,"superscript"
+   ,"with_toc_data"
+   ,"footnotes"
+   ,"highlight"
+   ,"underline"
+   ,"quote"
+   ,"lax_spacing"
+   ,"prettify"
+#   ,"html_toc"
+  ]
+
+
+
+paginate: 10
+paginate_path: "/page:num"
+baseurl: ""
+
+
+
+title: "todtao"
+email: "will_tao@126.com"
+description: "一个简单的脱离低级趣味的程序员"
+github_username:  "todtao"
+swiftype_searchId: "ncwR9a8S9CTx2q9SgsJm"
+disqus_shortname: "todtao"
+
+
+
+
+url: "http://todtao.github.io/todtao/"
+imgrepo: "http://todtao.github.io/todtao/static/img"
+
