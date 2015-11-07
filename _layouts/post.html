@@ -35,7 +35,13 @@ scripts: [toc.js,post.js]
         </div>
         <div class="pad-min"></div>
         <div id="post-comment" class="sheet post">
-            <div id="disqus_thread"></div>
+            <!-- 多说评论框 start -->
+            <div class="ds-thread" data-thread-key="{{ page.id }}"
+                 data-title="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}"
+                 data-url="{{ page.url | prepend: site.baseurl | prepend: site.url }}"></div>
+            <!-- 多说评论框 end -->
+
+
         </div>
     </div>
     <div class="content-navigation col-lg-3">

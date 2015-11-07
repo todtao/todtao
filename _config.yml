@@ -33,7 +33,11 @@ email: "will_tao@126.com"
 description: "一个简单的脱离低级趣味的程序员"
 github_username:  "todtao"
 swiftype_searchId: "ncwR9a8S9CTx2q9SgsJm"
-disqus_shortname: "todtao"
+  comments :
+    provider : duoshuo
+    duoshuo :
+      short_name : todtao
+
 
 
 
